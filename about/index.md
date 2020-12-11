@@ -8,10 +8,18 @@ class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+Your friendly neighborhood coder who churns coffee into code. The first iteration will barely be working. But you can bet it will get the job done. I believe in adding incremental value to a product.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+> The master has failed more times than the beginner has ever tried.
+>
+> -Master Yoda
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+### Interested in:
+- Everything related to Tech
+- [Hacker News](https://news.ycombinator.com/)
+- Non-fiction books
+- [Elon musk](https://en.wikipedia.org/wiki/Elon_Musk)
+
+You can reach me at <albincepa@gmail.com>
+

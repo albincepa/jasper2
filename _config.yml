@@ -5,32 +5,36 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 words_per_minute: 200
 
+url: https://albince.com
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: Albince Paliakkara
+description: Tech, Life & Everything
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
+CNAME: albince.com #add cname for website to be created
+
+# Timezone info
+timezone: Asia/Kolkata
 
 # Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+navigation: False # show the navbar links
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: albincepa # replace by your username
+facebook: albincepa # replace by your username
 
 # Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus: True
+disqus_shortname: albince-com # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-177425727-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -67,16 +71,17 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
+username: albincepa
 repo: jasper2
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://jekyller.github.io/jasper2/
-source_url:  https://github.com/jekyller/jasper2/
+production_url:  https://albince.com/
+source_url:  https://github.com/albincepa/jasper2/
 
 exclude:
   - assets/css
+  - assets/images/original/
   - node_modules
   - vendor
   - .travis.yml
@@ -93,3 +98,13 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+
+mini_magick:
+  cover:
+    source: assets/images/original/cover
+    destination: assets/images
+    resize: "600x400"
+  medium:
+    source: assets/images/original/medium
+    destination: assets/images
+    resize: "600x400"
